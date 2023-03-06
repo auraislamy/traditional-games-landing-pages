@@ -1,0 +1,422 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid white; */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.125rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Bebas Neue';
+    /* font-weight: bold; */
+    letter-spacing: 0.3rem;
+}
+
+h2 {
+    /* font-size: 2.25rem; */
+    font-size: 4.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+/* container */
+
+.cont {
+    height: 100vh;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* navigation */
+
+.nav-bar {
+    background-color: rgba(0,0,0,0.5);
+    padding: 0.5em 0;
+}
+
+.nav-bar img {
+    width: auto;
+    height: 2rem;
+}
+
+.nav-left {
+    margin-left: 5rem;
+}
+
+.nav-bar li {
+    padding: 0 1rem;
+}
+
+.nav-bar a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.1rem;
+}
+
+/* end of nav section */
+
+/* header sec style */
+
+.masthead {
+    background-image: url('./assets/main-bg.jpg');
+}
+
+.masthead h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+    letter-spacing: 0.6rem;
+    word-spacing: 0.8rem;
+    margin-top: -10rem;
+}
+
+.masthead .desc{
+    color: white;
+    /* letter-spacing: 0.2rem; */
+    /* word-spacing: 0.5rem; */
+    font-size: 1.14rem;
+    margin-top: 2rem;
+}
+
+.masthead p a {
+    background-color: rgb(252, 177, 39);
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 0.8rem 4rem;
+    border-color: rgb(252, 177, 39);
+    margin-top: 2rem;
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+}
+
+.masthead p a:hover, .masthead p a:visited, .ts-cont a:hover,
+.ts-cont a:visited {
+    background-color: rgb(252, 177, 39);
+    border-color: rgb(252, 177, 39);
+}
+
+.scroll-down p {
+    color: rgb(169, 169, 169);
+    text-transform: uppercase;
+    font-size: 0.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.scroll-down img {
+    margin-top: -3rem;
+    width: auto;
+    height: 0.6rem;
+}
+
+/* end of header sec style */
+
+/* games section */
+
+.games-page {
+    background-image: url('./assets/the-games-bg.jpg');
+    color: white;
+}
+
+.games-content {
+    height: 100vh;
+}
+
+.games-content h2 {
+    float: right;
+}
+
+.text {
+    letter-spacing: 0.1rem;
+}
+
+.games-content .text {
+    padding-left: 4rem;
+    letter-spacing: 0.1rem;
+}
+
+/* features section */
+
+.feature-page {
+    background-image: url('./assets/features.jpg');
+    color: white;
+}
+
+.feature-content h2 {
+    margin-top: -1rem;
+    margin-bottom: 3rem;
+}
+
+.feature-content h3 {
+    color: orange;
+    font-weight: lighter;
+}
+
+.feature-content .row p {
+    font-size: 1rem;
+}
+
+.feature-content .row {
+    margin-bottom: 2rem;
+}
+
+.main-content {
+    margin-left: 39rem;
+}
+
+/* requirements section */
+.requirement-page {
+    background-image: url('./assets/requirements.png');
+    color: white;
+    
+}
+
+.requirement-content {
+    background-color: rgba(0,0,0,0.6)
+}
+
+.requirement-content .text {
+    font-size: 0.8rem;
+    margin-top: -5rem;
+    margin-bottom: 5rem;
+    /* font-weight: bold; */
+}
+
+.requirement-content .col-3, .requirement-content .col-6 {
+    border: 0.5px solid rgb(53, 53, 53);
+    padding: 1rem;
+}
+
+.requirement-content h2 {
+    line-height: 1;
+    letter-spacing: 0.5rem;
+    border: none;
+}
+
+.requirement-content .row h3 {
+    color: orange;
+}
+
+.requirement-content .row p {
+    font-size: 1.1rem;
+}
+
+/* top-scores section */
+.score-page {
+    background-image: url('./assets/top-score-bg.png');
+    color: white;
+}
+
+.score-content {
+    height: 100vh;
+}
+
+.ts-cont p {
+    font-size: 0.9rem;
+    padding-right: 13rem;
+}
+
+.ts-cont a {
+    background-color: rgb(242, 183, 73);
+    color: black;
+    font-weight: bold;
+    font-size: 0.8rem;
+    /* text-transform: uppercase; */
+    padding: 0.8rem 4rem;
+    border-color: rgb(239, 185, 84);
+    /* margin-top: 2rem; */
+}
+
+.reviewer .card {
+    margin-top: 2em;
+    border-radius: 0.5em;
+    background-color: rgb(40, 39, 39);
+}
+
+.pp-cont {
+    background-image: url('./assets/ellipse-orange.png');
+    background-repeat: no-repeat;
+}
+
+.pp-cont img{
+    position: relative;
+    right: 0.6em;
+    bottom: 0.2em;
+}
+
+.profile-desc {
+    margin-left: 0.8em;
+    padding-top: 0.5rem;
+}
+
+.profile-desc h5 {
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    color: orange;
+}
+
+.profile-desc h6 {
+    margin-top: -0.5rem;
+    font-size: 0.9rem;
+}
+
+.ts-tw-logo {
+    margin-top: 0.8rem;
+}
+
+.card-body p {
+    margin-left: -0.5em;
+}
+
+.review {
+    margin-top: 1em;
+    font-size: 0.9rem;
+}
+
+.date-review {
+    color: rgb(174, 174, 174);
+    font-size: 0.8rem;
+}
+
+/* subscribe section */
+
+.subscribe-page {
+    background-image: url('./assets/newsletter.png');
+    color: white;
+}
+
+.subscribe-content {
+    height: 85vh;
+}
+
+.subscribe-content .right-top-cont {
+    margin-bottom: 2rem;
+}
+
+.subscribe-content .text {
+    padding-right: 20rem;
+    
+}
+
+.subscribe-content h2 {
+    letter-spacing: 0.3rem;
+}
+
+.subscribe-desc {
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+.subscribe-form small {
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255);
+    padding-left: 0.4rem;
+    margin-bottom: 0.1rem;
+}
+
+.subscribe-form div {
+    display: inline-block;
+}
+
+#email {
+    padding: 0.5rem;
+    background-color: rgb(54, 54, 54);
+    border-color: rgb(33, 31, 31);
+    margin-right: 1rem;
+    border-radius: 0.2rem;
+}
+
+.subscribe-form .btn {
+    background-color: rgb(242, 183, 73);
+    color: black;
+    font-weight: bold;
+    font-size: 0.8rem;
+    /* text-transform: uppercase; */
+    padding: 0.7rem 4rem;
+    border-color: rgb(239, 185, 84);
+    /* margin-top: 2rem; */
+}
+
+/* footer */
+footer {
+    height: 15vh;
+}
+
+.footer-nav li {
+    padding-left: 1em;
+}
+
+.footer-nav a {
+    text-transform: uppercase;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.footer-nav img {
+    width: auto;
+    height: 1.2rem;
+}
+
+hr {
+    border-bottom: 1px solid rgb(138, 136, 136);
+}
+
+.policy {
+    font-size: 0.7rem;
+}
+
+.policy a{
+    color: white;
+    padding: 0 1em;
+    text-transform: uppercase;
+}
+
+.b {
+    border-left: 1px solid white;
+}
+
+.none-b {
+    border-left: none;
+}
+
+@media (max-width: 991.98px) {
+    /* footer {
+        display: none;
+    } */
+
+    #email {
+        width: 5rem;
+        height: auto;
+    }
+
+    .subscribe-form .btn {
+        width: 5rem;
+        height: auto;
+        padding: 0;
+    }
+
+    .footer-nav ul li {
+        padding-right: 0.2rem;
+    }
+
+    .footer-nav a {
+        font-size: 0.6rem;
+    }
+
+    .policy {
+        font-size: 0.5rem;
+    }
+
+}
+
